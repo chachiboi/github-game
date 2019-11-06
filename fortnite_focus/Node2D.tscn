@@ -1,0 +1,224 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://blacknwhite.png" type="Texture" id=2]
+[ext_resource path="res://MovingPlatform.tscn" type="PackedScene" id=3]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
+
+[sub_resource type="TileSet" id=9]
+0/name = "blacknwhite.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 12, 12 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+1/name = "blacknwhite.png 1"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 12, 0, 12, 12 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1/z_index = 0
+2/name = "blacknwhite.png 2"
+2/texture = ExtResource( 2 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 24, 0, 12, 12 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+2/z_index = 0
+3/name = "blacknwhite.png 3"
+3/texture = ExtResource( 2 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 12, 12, 12 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+3/z_index = 0
+4/name = "blacknwhite.png 4"
+4/texture = ExtResource( 2 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 12, 12, 12, 12 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+4/z_index = 0
+5/name = "blacknwhite.png 5"
+5/texture = ExtResource( 2 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 24, 12, 12, 12 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+5/z_index = 0
+6/name = "blacknwhite.png 6"
+6/texture = ExtResource( 2 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 24, 12, 12 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+6/z_index = 0
+7/name = "blacknwhite.png 7"
+7/texture = ExtResource( 2 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 12, 24, 12, 12 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+7/z_index = 0
+8/name = "blacknwhite.png 8"
+8/texture = ExtResource( 2 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 24, 24, 12, 12 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+8/z_index = 0
+9/name = "blacknwhite.png 9"
+9/texture = ExtResource( 2 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 36, 12, 12 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+9/z_index = 0
+10/name = "blacknwhite.png 10"
+10/texture = ExtResource( 2 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 12, 36, 12, 12 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+10/z_index = 0
+11/name = "blacknwhite.png 11"
+11/texture = ExtResource( 2 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 48, 12, 12 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+11/z_index = 0
+12/name = "blacknwhite.png 12"
+12/texture = ExtResource( 2 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 12, 48, 12, 12 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+12/z_index = 0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 156, 120 )
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( 0, 1 )
+tile_set = SubResource( 9 )
+cell_size = Vector2( 12, 12 )
+format = 1
+tile_data = PoolIntArray( -262060, 3, 0, -262058, 5, 0, -196524, 3, 0, -196522, 5, 0, -130988, 3, 0, -130986, 5, 0, -65528, 5, 0, -65452, 3, 0, -65450, 5, 0, 8, 5, 0, 84, 3, 0, 86, 5, 0, 65544, 5, 0, 65620, 3, 0, 65622, 5, 0, 131080, 5, 0, 131156, 3, 0, 131158, 5, 0, 196616, 5, 0, 196692, 3, 0, 196694, 5, 0, 262152, 5, 0, 262228, 3, 0, 262230, 5, 0, 327688, 5, 0, 327764, 3, 0, 327766, 5, 0, 393224, 5, 0, 393300, 3, 0, 393302, 5, 0, 458760, 5, 0, 458836, 6, 0, 458837, 7, 0, 458838, 8, 0, 524296, 5, 0, 589832, 5, 0, 589848, 0, 0, 589849, 1, 0, 589850, 1, 0, 589851, 1, 0, 589852, 2, 0, 589865, 0, 0, 589866, 1, 0, 589867, 1, 0, 589868, 1, 0, 589869, 1, 0, 589870, 1, 0, 589871, 1, 0, 589872, 1, 0, 589873, 2, 0, 589880, 0, 0, 589881, 2, 0, 589887, 0, 0, 589888, 2, 0, 589895, 0, 0, 589896, 1, 0, 589897, 1, 0, 589898, 1, 0, 589899, 1, 0, 589900, 1, 0, 589901, 1, 0, 589902, 1, 0, 589903, 1, 0, 589904, 1, 0, 589905, 1, 0, 589906, 1, 0, 589907, 1, 0, 589908, 1, 0, 589909, 1, 0, 589910, 1, 0, 589911, 1, 0, 589912, 1, 0, 589913, 1, 0, 589914, 1, 0, 589915, 2, 0, 655368, 5, 0, 655384, 3, 0, 655388, 11, 0, 655389, 1, 0, 655390, 1, 0, 655391, 1, 0, 655392, 1, 0, 655393, 1, 0, 655394, 1, 0, 655395, 1, 0, 655396, 1, 0, 655397, 1, 0, 655398, 1, 0, 655399, 1, 0, 655400, 1, 0, 655401, 12, 0, 655409, 5, 0, 655416, 3, 0, 655417, 5, 0, 655423, 3, 0, 655424, 5, 0, 655431, 3, 0, 655451, 5, 0, 720904, 11, 0, 720905, 1, 0, 720906, 1, 0, 720907, 1, 0, 720908, 1, 0, 720909, 1, 0, 720910, 1, 0, 720911, 1, 0, 720912, 1, 0, 720913, 1, 0, 720914, 2, 0, 720920, 3, 0, 720945, 5, 0, 720952, 3, 0, 720953, 5, 0, 720959, 3, 0, 720960, 5, 0, 720967, 3, 0, 720987, 5, 0, 786450, 5, 0, 786456, 3, 0, 786481, 5, 0, 786488, 3, 0, 786489, 5, 0, 786495, 3, 0, 786496, 5, 0, 786503, 3, 0, 786523, 5, 0, 851986, 5, 0, 851992, 3, 0, 852017, 5, 0, 852024, 3, 0, 852025, 5, 0, 852031, 3, 0, 852032, 5, 0, 852039, 3, 0, 852059, 5, 0, 917522, 5, 0, 917528, 3, 0, 917553, 5, 0, 917560, 3, 0, 917561, 5, 0, 917567, 3, 0, 917568, 5, 0, 917575, 3, 0, 917595, 5, 0, 983058, 5, 0, 983064, 3, 0, 983089, 5, 0, 983096, 3, 0, 983097, 5, 0, 983103, 3, 0, 983104, 5, 0, 983111, 3, 0, 983131, 5, 0, 1048594, 5, 0, 1048600, 3, 0, 1048625, 5, 0, 1048632, 3, 0, 1048633, 5, 0, 1048639, 3, 0, 1048640, 5, 0, 1048647, 3, 0, 1048667, 5, 0, 1114130, 5, 0, 1114136, 3, 0, 1114161, 5, 0, 1114168, 3, 0, 1114169, 5, 0, 1114175, 3, 0, 1114176, 5, 0, 1114183, 3, 0, 1114203, 5, 0, 1179666, 5, 0, 1179672, 3, 0, 1179697, 5, 0, 1179704, 3, 0, 1179705, 5, 0, 1179711, 3, 0, 1179712, 5, 0, 1179719, 3, 0, 1179739, 5, 0, 1245202, 5, 0, 1245208, 3, 0, 1245233, 5, 0, 1245240, 3, 0, 1245241, 5, 0, 1245247, 3, 0, 1245248, 5, 0, 1245255, 3, 0, 1245275, 5, 0, 1310738, 11, 0, 1310739, 1, 0, 1310740, 1, 0, 1310741, 1, 0, 1310742, 1, 0, 1310743, 1, 0, 1310744, 12, 0, 1310769, 11, 0, 1310770, 1, 0, 1310771, 1, 0, 1310772, 1, 0, 1310773, 1, 0, 1310774, 1, 0, 1310775, 1, 0, 1310776, 12, 0, 1310777, 11, 0, 1310778, 1, 0, 1310779, 1, 0, 1310780, 1, 0, 1310781, 1, 0, 1310782, 1, 0, 1310783, 12, 0, 1310784, 11, 0, 1310785, 1, 0, 1310786, 1, 0, 1310787, 1, 0, 1310788, 1, 0, 1310789, 1, 0, 1310790, 1, 0, 1310791, 12, 0, 1310811, 5, 0 )
+
+[node name="MovingPlatform" parent="." instance=ExtResource( 3 )]
+position = Vector2( 360, 102 )
